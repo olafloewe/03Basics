@@ -118,8 +118,11 @@ namespace Task_2 {
                     selectedTask = new Task(AboutTheAuthor);
                     break;
                 default:
-                    return 3;
+                    selectedTask = null;
+                    DrawMenu(menu);
+                    break;
             }
+            if (selectedTask == null) return select;
             selectedTask.Start();
             Task.WaitAll(selectedTask);
             // Thread.Sleep(5000);
