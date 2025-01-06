@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2 {
+namespace Task_2 {
     internal class Program {
 
         static void Main(string[] args) {
